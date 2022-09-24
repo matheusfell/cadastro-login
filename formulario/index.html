@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>Formulario</title>
 </head>
+
 <body>
-  
+  <div class="formulario">
+    <form action="">
+      <fieldset>
+        <legend><b>Formulario para clientes</b></legend>
+        <br>
+        <div class="input-box">
+          <input class="input-usuario" type="text" name="nome" id="nome" required>
+          <label for="nome">Nome completo</label>
+        </div>
+
+        <div class="input-box">
+          <input class="input-usuario" type="email" name="email" id="email" required>
+          <label for="email">Email</label>
+        </div>
+
+        <div class="input-box">
+          <input class="input-usuario" type="tel" name="telefone" id="telefone" required>
+          <label for="Telefone">Telefone</label>
+        </div>
+        <p>Sexo: </p>
+        <input type="radio" name="sexo" value="feminino" id="feminino">
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="sexo" value="masculino" id="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="sexo" value="outro" id="outro">
+        <label for="outro">Outro</label>
+      </fieldset>
+    </form>
+  </div>
 </body>
+
 </html>

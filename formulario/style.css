@@ -79,7 +79,11 @@ legend {
   width: 100%;
   font-size: 1rem;
   background: linear-gradient(90deg, rgba(70,0,214,1) 0%, rgba(78,31,149,1) 100%);
+}
+
+#submit:hover {
   cursor: pointer;
+  background: linear-gradient(90deg, rgba(78,31,149,1) 0%, rgba(70,0,214,1) 100%);
 }
 
 

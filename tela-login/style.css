@@ -3,6 +3,10 @@ body {
   background: #313866;
 }
 
+.nome, .senha {
+  margin-bottom: 5px;
+}
+
 .login {
   position: absolute;
   border-radius: 4px;
